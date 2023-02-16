@@ -63,3 +63,19 @@ Creating AWS IAM Roles
 ### Create User Group
 
 ### Create AWS SCP Policies
+
+
+## Recreate Diagram in Lucid Charts
+![AWS Overview](./images/week0/AWS-Overview.png)
+
+[Link to Lucid Charts](https://lucid.app/lucidchart/9e6e0473-c7d7-42f4-b4cb-4dd67f4fd9b5/edit?invitationId=inv_16673061-8697-4ed2-9a42-69d59b2fb122)
+
+## AWS CLI
+
+The AWS CLI is a unified tool that allows you to interact with various AWS services from a command-line interface. It provides a simple and consistent way to manage your AWS resources, and it can be used on various platforms, including Windows, macOS, and Linux.
+
+Tips: The `--cli-auto-prompt` option in the AWS CLI (Command Line Interface) allows we to interactively provide values for any missing required parameters when running commands.
+
+When we run an AWS CLI command that requires input parameters, we can specify those parameters using the command line options or by providing a JSON file with the --cli-input-json option. However, if we don't provide all of the required parameters, the command will fail.
+
+With the `--cli-auto-prompt` option, the AWS CLI will prompt you for any missing required parameters, so we can provide them interactively. This can be helpful when we're not sure what values to provide for the parameters or when we don't want to enter long command lines with multiple options.
