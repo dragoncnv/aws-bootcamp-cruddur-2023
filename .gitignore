@@ -1,0 +1,4 @@
+aws/
+.vscode/
+awscliv2.zip
+docker/dynamodb
